@@ -401,6 +401,7 @@
             </div>
             <ul class="hidden md:flex gap-8 font-sans text-xs font-semibold tracking-widest uppercase items-center">
                 <li><a class="text-purple-800 hover:text-purple-600 transition-colors" href="#academic">Education</a></li>
+                <li><a class="text-purple-800 hover:text-purple-600 transition-colors" href="#projects">Projects</a></li>
                 <li><a class="text-purple-800 hover:text-purple-600 transition-colors" href="#certifications">Certifications</a></li>
                 <li><a class="text-purple-800 hover:text-purple-600 transition-colors" href="#skills">Skills</a></li>
                 <li><a class="text-purple-950 border-b-2 border-purple-main pb-1" href="#contact">Contact</a></li>
@@ -468,6 +469,9 @@
                             <h3 class="text-2xl font-bold text-purple-950 mb-1">University of Management and Technology (UMT)</h3>
                             <p class="text-purple-main font-semibold">Bachelor of Computer Science</p>
                             <p class="text-purple-700 text-sm mt-1">Lahore, Punjab, Pakistan</p>
+                            <div class="mt-6 rounded-xl overflow-hidden border border-purple-200 shadow-inner bg-white/50">
+                                <img src="transcript.jpeg" alt="University Transcript" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-500 cursor-zoom-in" title="View Transcript"/>
+                            </div>
                         </div>
                         <div class="mt-4 md:mt-0 glass-panel px-4 py-2 rounded-lg text-sm text-purple-900 tracking-widest uppercase border-purple-main/30">
                             Oct 2025 – Dec 2029
@@ -505,6 +509,60 @@
                     </div>
                     <div class="bg-purple-100 inline-block px-4 py-2 rounded border border-purple-300">
                         <span class="text-purple-main font-bold">Grade: A+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 relative z-10">
+        <div class="max-w-[1140px] mx-auto px-8">
+            <div class="mb-16 text-center reveal">
+                <h2 class="text-3xl md:text-4xl font-bold text-purple-950 mb-4">Featured Projects</h2>
+                <p class="text-purple-800 max-w-2xl mx-auto">Innovative solutions and technical experiments developed through hands-on experience.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- JARVIS Project -->
+                <div class="glass-panel rounded-3xl overflow-hidden reveal delay-1 group flex flex-col h-full border-purple-main/20">
+                    <div class="aspect-video relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="JARVIS Project" class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-purple-950/80 to-transparent opacity-60"></div>
+                        <div class="absolute bottom-4 left-6">
+                            <span class="px-3 py-1 bg-purple-main text-white text-[10px] font-bold tracking-widest uppercase rounded-full">Active Project</span>
+                        </div>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold text-purple-950">J.A.R.V.I.S. AI System</h3>
+                            <div class="flex gap-2">
+                                <span class="material-symbols-outlined text-purple-main">smart_toy</span>
+                            </div>
+                        </div>
+                        <p class="text-purple-800 text-sm leading-relaxed mb-6 flex-grow">
+                            A sophisticated, AI-driven voice assistant and system diagnostics interface. Features a stunning "liquid glass" aesthetic with real-time hardware monitoring (CPU, RAM, Network), multilingual voice control (English, Urdu, Hindi), and immersive 3D visualizations. Built using React, Node.js, and advanced web technologies to create a truly futuristic user experience.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-purple-50 text-purple-700 text-xs rounded-lg border border-purple-100">React.js</span>
+                            <span class="px-3 py-1 bg-purple-50 text-purple-700 text-xs rounded-lg border border-purple-100">Node.js</span>
+                            <span class="px-3 py-1 bg-purple-50 text-purple-700 text-xs rounded-lg border border-purple-100">Voice Recognition</span>
+                            <span class="px-3 py-1 bg-purple-50 text-purple-700 text-xs rounded-lg border border-purple-100">Three.js</span>
+                        </div>
+                        <a href="https://jarvisbyzeeshanalishakeel-nye3laemk.vercel.app/" target="_blank" class="btn-3d w-full">
+                            <span>View Live Project</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Future Project Placeholder -->
+                <div class="glass-panel rounded-3xl overflow-hidden reveal delay-2 group border-dashed border-2 border-purple-200 flex flex-center items-center justify-center p-12 text-center opacity-70 hover:opacity-100 transition-opacity">
+                    <div>
+                        <div class="w-16 h-16 rounded-full bg-purple-50 flex items-center justify-center mx-auto mb-4 text-purple-300">
+                            <span class="material-symbols-outlined text-4xl">add</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-purple-950 mb-2">New Innovation Coming Soon</h3>
+                        <p class="text-purple-700 text-sm">Working on something exciting. Stay tuned for updates!</p>
                     </div>
                 </div>
             </div>
@@ -637,8 +695,12 @@
                         <h3 class="text-xl font-bold text-purple-950">Expertise</h3>
                     </div>
                     <ul class="text-purple-800 space-y-2 list-disc list-inside text-sm">
-                        <li>Wipe Coding</li>
-                        <li>Antigravity Expert</li>
+                        <li>Full-Stack React & Node.js</li>
+                        <li>AI Voice Recognition & TTS</li>
+                        <li>Futuristic Glassmorphism Design</li>
+                        <li>3D Web Visualizations (Three.js)</li>
+                        <li>Real-time System Monitoring</li>
+                        <li>Cloud Deployment (Vercel)</li>
                     </ul>
                 </div>
             </div>
